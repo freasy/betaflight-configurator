@@ -130,11 +130,12 @@
   },
   "resolutions": {
     "jquery": "3.6.3",
-    "libxmljs2": "0.32.0"
+    "libxmljs2": "0.37.0"
   },
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint"
     }
-  }
+  },
+  "packageManager": "yarn@4.12.0"
 }
