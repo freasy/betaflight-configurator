@@ -62,6 +62,7 @@ export const serialDevices = [
     { vendorId: 11836, productId: 22336 }, // AT32 VCP
     { vendorId: 12619, productId: 22336 }, // APM32 VCP
     { vendorId: 11914, productId: 9 }, // Raspberry Pi Pico VCP
+    { vendorId: 6790, productId: 57860 }, // WCH VCP
 ];
 
 export const usbDevices = {
@@ -71,6 +72,7 @@ export const usbDevices = {
         { vendorId: 11836, productId: 57105 }, // AT32F435 DFU Bootloader
         { vendorId: 12619, productId: 262 }, // APM32 DFU Bootloader
         { vendorId: 11914, productId: 15 }, // Raspberry Pi Pico in Bootloader mode
+        { vendorId: 6790, productId: 57861 }, // WCH DFU Bootloader
     ],
 };
 
